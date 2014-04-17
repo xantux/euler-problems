@@ -13,7 +13,7 @@ REGARDING THE PERFORMANCE
 This is not the final version of this algorithm, I'll trace the version of every solution. For any suggest of improvments please
 open an issue or a pull request.
 
-@author Claudio Ludovico Panetta
+@author Claudio Ludovico Panetta (@Ludo237)
 @version 1.5.0
 '''
 # We need a scalable algorithm so we cannot use a static size for our test
