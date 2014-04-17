@@ -22,31 +22,23 @@
 // Start the benchmark
 $startTest = microtime();
 
-// Create two variables to store multiples of three and five
-$multipleOfThree = []; // Array
-$multipleOfFive = []; // Array
+// We need a scalable algorithm so we cannot use a static zise for our test
+$size = 1000;
+// Create one array to store multiples of three and five
+$multiple = []; // Array
 
 // First of all we need to iterate trough 1000 numbers
-for($i = 0; $i < 1000; $i++){
-    // Using strict comparison in PHP 
-    // to compare numbers with ===
+for($i = 0; $i < $size; $i++){
+    // Using strict comparison in PHP to compare numbers with ===
     // does not work
-    if($i % 3 == 0) {
-        $multipleOfThree[] = $i;
-    }elseif($i % 5 == 0) {
-        $multipleOfFive[] = $i;
-    }else{
-        continue; // We do not care of any other numbers
-    }
+    if( ($i % 3 == 0) || ($i % 5 == 0) )
+        $multiple[] = $i;
 }
 
 // By using array_sum we sum the two arrays
 // thanks to PHP for that function :)
-$multipleOfThree = array_sum($multipleOfThree);
-$multipleOfFive = array_sum($multipleOfFive);
-
 // And now the final part
-$total = $multipleOfThree + $multipleOfFive;
+$total = array_sum($multiple);
 
 // End of benchmark
 $endTest = microtime();
