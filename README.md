@@ -1,15 +1,18 @@
-Project Euler - Solutions
+Project Euler - Problems
 ==============
 
-Repository that contains all the solution for every problems that I took on [Project Euler](http://projecteuler.net/problems)
+Repository that contains every problems that I took on [Project Euler](http://projecteuler.net/problems)
 
 ## What is this ? ##
-This is a simple repository with my solution for some of the mainstream problems that you can find on Project Euler
+
+This is a simple repository with procedure for some of the mainstream problems that you can find on Project Euler.
 
 ## Why this? ##
+
 **REASONS**. No to be honest I'm doing this only to populate a bit my Github account and fill it with my `knowledge and solving problem skills` in order to create a little resume and a cool repository to watch, fork and pull :-)
 
 ## What is Project Euler ? ##
+
 Quote from the site
 	
 	«Project Euler exists to encourage, challenge,
