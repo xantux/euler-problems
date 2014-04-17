@@ -14,7 +14,7 @@ This is not the final version of this algorithm, I'll trace the version of every
 open an issue or a pull request.
 
 @author Claudio Ludovico Panetta
-@version 1.0.0
+@version 1.5.0
 '''
 # We need a scalable algorithm so we cannot use a static size for our test
 size = 1000

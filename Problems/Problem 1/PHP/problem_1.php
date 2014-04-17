@@ -16,7 +16,7 @@
  * this is the best algorithm in terms of speed and code optimization, for any trouble open an issue.
  *
  * @author Claudio Ludovico Panetta (@Ludo237)
- * @version 1.0.0
+ * @version 1.5.0
  *************************************/
 
 // Start the benchmark
