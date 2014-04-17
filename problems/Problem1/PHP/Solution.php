@@ -19,9 +19,13 @@
  * @version 1.0.0
  *************************************/
 
+// Start the benchmark
+$startTest = microtime();
+
 // Create two variables to store multiples of three and five
 $multipleOfThree = []; // Array
 $multipleOfFive = []; // Array
+
 // First of all we need to iterate trough 1000 numbers
 for($i = 0; $i < 1000; $i++){
     // Using strict comparison in PHP 
@@ -43,3 +47,7 @@ $multipleOfFive = array_sum($multipleOfFive);
 
 // And now the final part
 $total = $multipleOfThree + $multipleOfFive;
+
+// End of benchmark
+$endTest = microtime();
+echo "Algorithm time: ". ($endTest - $startTest);
