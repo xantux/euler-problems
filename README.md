@@ -23,7 +23,7 @@ I think that Computer Science is strictly related to Mathematics so that's the b
 	
 	Solving mathematics problems with programming languages
 
-It's nothing new I know, but I want to do it in a different way, I will create a folder for every problem set and inside it I will put the solutions in different programming languages, those who I know most of course.
+It's nothing new I know, but I want to do it in a different way, I will create a folder for every problem set and inside it I will put the procedure in different programming languages, those who I know most of course.
 
 For further readings about Project Euler see [the About page](http://projecteuler.net/about).
 
@@ -44,7 +44,7 @@ Those are the languages that I know at the moment. I don't know if I will add so
 ## CAN I CONTRIBUTE TO THIS? ##
 **OF COURSE YOU CAN**
 
-- If you want to pull a solution with different language, I will not cover EVERY solution with all languages, fell free to submit a pull request.
+- If you want to pull a solution with different language, I will not cover EVERY problems with all languages, fell free to submit a pull request.
 - If you think that you have a faster, or better, solution, feel free to open an issue and we will discuss on it :-)
 
 This is a project from everyone to everyone, no doubt about it. Once a pull request will be merged you will became a **SOLVER** se the `SOLVER.md` file for further details
