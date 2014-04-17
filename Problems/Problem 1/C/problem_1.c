@@ -27,33 +27,28 @@ int main(int argc, char** argv)
 {
     // I don't think this is the best way to work but...
     int size = 1000;
-    int multipleOfThree[1000] = {0};
-    int multipleOfFive[1000] = {0};
+    int multiple[sizeof(size)] = {0};
 
     // First of all we need to iterate trough 1000 numbers
     for( int i = 0; i < size; i++)
     {
-        if(i % 3 == 0)
-        {
-            multipleOfThree[i] = i;
-        }
-        else if(i % 5 == 0)
-        {
-            multipleOfFive[i] = i;
-        }
-        else
-            continue;
+        if( (i % 3 == 0) || (i % 5 == 0) )
+            multiple[i] = i;
     }
 
     // Since C does not have a builtin function I wrote something similar :)
-    int sumOfThree = array_sum(multipleOfThree);
-    int sumOfFive = array_sum(multipleOfFive);
-
     // And now the final part
-    int total = sumOfThree + sumOfFive;
+    int total = array_sum(multiple);
     return 0;
 }
 
+/****************
+ *
+ * array_sum()
+ * Simple "hack" to sum array values
+ * @param int array[]
+ * @return int
+ ****************/
 int array_sum(int array[])
 {
     int i, sum = 0;
