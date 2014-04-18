@@ -15,8 +15,8 @@
  * This is not the final version, as you can see I'll trace the version of every solution, so please don't think that
  * this is the best algorithm in terms of speed and code optimization, for any trouble open an issue.
  *
- * @author Claudio Ludovico Panetta (@Ludo237)
- * @version 1.5.0
+ * @author Pietro Arturo Panetta (blog.arturu.it)
+ * @version 2.0
  *************************************/
 /**
  * Ringrazio Gauss per la soluzione
