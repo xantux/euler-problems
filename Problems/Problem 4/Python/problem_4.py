@@ -36,4 +36,3 @@ for i in range(1000,100,-1):
         if isPalindromic(i*j):
             if i*j>maxPalidomic:
                 maxPalidomic = i*j
-print(maxPalidomic)
