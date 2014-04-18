@@ -32,7 +32,7 @@ $pivot = array(1,2);
 
 // And, of course, a list of the fibonacci numbers
 $fibonacci = array();
-$fibonacciSum = 0;
+$total = 0;
 
 // Main algorithm part starts here
 for($i = 0; $i < $size; $i++) {
@@ -44,7 +44,7 @@ for($i = 0; $i < $size; $i++) {
         $fibonacci[$i] = $pivot[0];
     // Sum the numbers now
     if($fibonacci[i] % 2 == 0)
-        $sum+=$fibonacci[i];
+        $total += $fibonacci[i];
 }
 
 // Algorithm end
