@@ -43,7 +43,7 @@ for($i = 0; $i < $size; $i++) {
     else
         $fibonacci[$i] = $pivot[0];
     // Sum the numbers now
-    if($fibonacci[i]%2==0
+    if($fibonacci[i] % 2 == 0)
         $sum+=$fibonacci[i];
 }
 
