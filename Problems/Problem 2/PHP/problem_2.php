@@ -36,15 +36,15 @@ $total = 0;
 
 // Main algorithm part starts here
 for($i = 0; $i < $size; $i++) {
-    if( $i != 0 && i != $size)
+    if( $i != 0 && $i != $size)
         $fibonacci[$i] = $fibonacci[$i-1]+$fibonacci[$i-2];
     elseif($i == 1)
         $fibonacci[$i] = $pivot[1];
     else
         $fibonacci[$i] = $pivot[0];
     // Sum the numbers now
-    if($fibonacci[i] % 2 == 0)
-        $total += $fibonacci[i];
+    if($fibonacci[$i] % 2 == 0)
+        $total += $fibonacci[$i];
 }
 
 // Algorithm end
