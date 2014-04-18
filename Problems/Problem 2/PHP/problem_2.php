@@ -8,13 +8,13 @@
  *  
  *  1,2,3,5,8,12,21,34,55,89, ...
  *
- * By considering the terms in the Fibonacci sequence whose values do no exceed four million, find the sum of the even-valued terms
+ * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms
  *
  * PLEASE NOTE
  * In order to work you must have, at least, PHP 5.3.x or Higher
  *
  * REGARDING THE PERFORMANCE
- * This is not the final version of the scritp, you can improve the algorithm by submitting a pull request or an issue on Github.
+ * This is not the final version of the script, you can improve the algorithm by submitting a pull request or an issue on Github.
  * Feel free to ask for anything on Github.
  *
  * @author Claudio Ludovico Panetta (@Ludo237)
@@ -27,7 +27,7 @@ $startTest = microtime();
 // As always we cannot "fixed" the size of our algorithm
 $size = 32; // Fibonacci numbers, you can change it
 
-// We need to privots as starting point, the array idea seems bit faster
+// We need to pivots as starting point, the array idea seems bit faster
 $pivot = array(1,2);
 
 // And, of course, a list of the fibonacci numbers
