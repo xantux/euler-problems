@@ -25,4 +25,4 @@ sumMultiples5 = nMultiplesOf5*(maxMultipleOf5+5)/2
 sumMultiples15 = nMultiplesOf15*(maxMultipleOf15+15)/2
 total = sumMultiples3 + sumMultiples5 - sumMultiples15
 
-print(int(total))
+
