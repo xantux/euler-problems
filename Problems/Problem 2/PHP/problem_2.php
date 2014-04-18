@@ -32,19 +32,17 @@ $pivot = array(1,2);
 
 // And, of course, a list of the fibonacci numbers
 $fibonacci = array();
-$fibonacciSum = 0;
 
 // Main algorithm part starts here
 for($i = 0; $i < $size; $i++) {
     if($i == 0)
-        $fibonacci[] = $pivot[0];
+        $fibonacci[$i] = $pivot[0];
     elseif($i == 1)
-        $fibonacci[] = $pivot[1];
+        $fibonacci[$i] = $pivot[1];
     else {
-        $fibonacci[] = $pivot[0] + $pivot[1];
-        $fibonacciSum = $pivot[0] + $pivot[1];
+        $fibonacci[$i] = array_sum($pivot);
         $pivot[0] = $pivot[1];
-        $pivot[1] = $fibonacciSum;
+        $pivot[1] = $fibonacci[$i];
     }
 }
 // We need to sum the Even-valued terms
