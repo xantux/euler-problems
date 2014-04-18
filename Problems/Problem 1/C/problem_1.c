@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 /***********************
  *
  * Problem 1 From Project Euler
