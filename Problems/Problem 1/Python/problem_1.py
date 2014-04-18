@@ -9,11 +9,20 @@ This file is made with VIM using Python 3 on Mac osX.
 @author Andrea Benfatti (@Benfa94)
 '''
 
-size = 1000
+size = 999
 # numberOfMultiple*(lastMultiple + firstMultiple)/2
-sumMultiples3 = 333*(999+3)/2
-sumMultiples5 = 199*(995+5)/2
-sumMultiples15 = 66*(990+15)/2
+
+nMultiplesOf3 = size//3
+nMultiplesOf5 = size//5
+nMultiplesOf15 = size//15
+
+maxMultipleOf3 = nMultiplesOf3 * 3
+maxMultipleOf5 = nMultiplesOf5 * 5
+maxMultipleOf15 = nMultiplesOf15 * 15
+
+sumMultiples3 = nMultiplesOf3*(maxMultipleOf3+3)/2
+sumMultiples5 = nMultiplesOf5*(maxMultipleOf5+5)/2
+sumMultiples15 = nMultiplesOf15*(maxMultipleOf15+15)/2
 total = sumMultiples3 + sumMultiples5 - sumMultiples15
 
 print(int(total))
