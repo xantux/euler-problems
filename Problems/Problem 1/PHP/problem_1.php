@@ -25,7 +25,7 @@ $startTest = microtime();
 // We need a scalable algorithm so we cannot use a static zise for our test
 $size = 1000;
 // Create one array to store multiples of three and five
-$multiple = []; // Array
+$multiple = array(); // Array
 
 // First of all we need to iterate trough 1000 numbers
 for($i = 0; $i < $size; $i++){
