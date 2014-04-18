@@ -6,3 +6,5 @@ This file contains all the users that help me solving problems, if they have a b
 ![image](http://projecteuler.net/profile/Ludo237.png)
 
 ![image](http://projecteuler.net/profile/Takeno.png)
+
+![image](https://projecteuler.net/profile/arturu.png)
