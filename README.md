@@ -49,6 +49,6 @@ Those are the languages that I know at the moment. I don't know if I will add so
 
 This is a project from everyone to everyone, no doubt about it. Once a pull request will be merged you will became a **SOLVER** se the `SOLVER.md` file for further details
 
-## What about Licence? ##
-I think that the proper licence for this project is the GPLv2 licence, se the `LICENCE` file for further details.
+## What about License? ##
+I think that the proper license for this project is the GPLv2 license, se the `LICENSE` file for further details.
 
