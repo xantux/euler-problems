@@ -49,6 +49,10 @@ Those are the languages that I know at the moment. I don't know if I will add so
 
 This is a project from everyone to everyone, no doubt about it. Once a pull request will be merged you will became a **SOLVER** se the `SOLVER.md` file for further details
 
+### Don't have a Project Euler account ? ###
+
+Don't worry, there's even the `CONTRIBUTORS.md` file with everyone inside it :-)
+
 ## What about License? ##
 I think that the proper license for this project is the GPLv2 license, se the `LICENSE` file for further details.
 
