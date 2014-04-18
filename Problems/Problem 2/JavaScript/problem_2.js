@@ -20,7 +20,7 @@
  * this is the best algorithm in terms of speed and code optimization, for any trouble open an issue.
  *
  * @author Matteo Manchi (@matteomanchi)
- * @version 1.0.0
+ * @version 1.1
  *************************************/
 
 // Start the benchmark
@@ -28,7 +28,7 @@ var startTime = Date.now();
 
 
 // Upperbound of Fibonacci values
-var upperBound = 4e6;
+var upperBound = 4e16;
 
 // Keep last two Fibonacci values to calculate the next one
 var lastTwoFibNumbers = [0, 1];
@@ -38,8 +38,7 @@ var total = 0;
 
 while(lastTwoFibNumbers[1] < upperBound) {
     var newFib = lastTwoFibNumbers[0] + lastTwoFibNumbers[1];
-    lastTwoFibNumbers.push(newFib);
-    lastTwoFibNumbers.shift();
+    lastTwoFibNumbers = [lastTwoFibNumbers[1], newFib];
 
     if(lastTwoFibNumbers[0] % 2 === 0)
         total += lastTwoFibNumbers[0];
