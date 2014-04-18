@@ -37,4 +37,4 @@ var total = Array.apply(null, Array(1000))
 
 // End of benchmark
 var endTime = Date.now();
-console.log('Algorithm time: ' + (endTime - startTime) + ' ' + total);
+console.log('Algorithm time: ' + (endTime - startTime));
