@@ -27,7 +27,7 @@ It's nothing new I know, but I want to do it in a different way, I will create a
 
 For further readings about Project Euler see [the About page](http://projecteuler.net/about).
 
-## HOW DO YOU SOLVE THE PROBLEMS? ##
+## How do you solve the problems? ##
 
 Actually I will solve the problems with:
 
@@ -41,7 +41,7 @@ Actually I will solve the problems with:
 
 Those are the languages that I know at the moment. I don't know if I will add some other languages, it's not so easy.
 
-## CAN I CONTRIBUTE TO THIS? ##
+## Can I contribute to this? ##
 **OF COURSE YOU CAN**
 
 - If you want to pull a solution with different language, I will not cover EVERY problems with all languages, fell free to submit a pull request.
@@ -49,6 +49,6 @@ Those are the languages that I know at the moment. I don't know if I will add so
 
 This is a project from everyone to everyone, no doubt about it. Once a pull request will be merged you will became a **SOLVER** se the `SOLVER.md` file for further details
 
-## WHAT ABOUT LICENCE? ##
+## What about Licence? ##
 I think that the proper licence for this project is the GPLv2 licence, se the `LICENCE` file for further details.
 
