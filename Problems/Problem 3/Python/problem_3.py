@@ -26,7 +26,7 @@ def is_prime(n):
 # Smart and fast with generators
 def getPrimeNumber():
     yield 2;
-    
+
     i = 3
 
     while True:
@@ -48,5 +48,3 @@ while target > 1:
         primeFactors.append(lastPrimeNumber);
     else:
         lastPrimeNumber = next(primeNumbers);
-
-print primeFactors[-1]
