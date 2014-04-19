@@ -14,7 +14,8 @@
  * this is the best algorithm in terms of speed and code optimization, for any trouble open an issue.
  * 
  * @author Claudio Ludovico Panetta (@ludo237)
- * @version 1.0.0
+ * @author Pietro Arturo Panetta (@arturu)
+ * @version 1.1.0
  **************************************/
 
 // Starting the benchmark
@@ -24,15 +25,26 @@ $startTime = microtime();
 // number we want
 $number = 600851475143; 
 
-// We need an array to store the prime factors
-$primeFactors = array();
+function primeFactors($number){
+	$primeFactors = array();
 
-for($i = 2; $i <= $number; $i++) {
-    if( $number % $i == 0) {
-        $number /= $i;
-        $primeFactors[] = $i;
-    }
+	$i=2;
+
+	do {
+		if ( $number % $i == 0) {
+			$number /= $i;
+			$primeFactors[] = $i;
+		}
+		else
+			++$i;
+
+	} while ($i<=$number);
+
+	return $primeFactors;
 }
+
+// We need an array to store the prime factors
+$primeFactors = primeFactors($number);
 
 // with PHP we can use a builtin function to find the large prime factor
 // but with other language you have to code it.
