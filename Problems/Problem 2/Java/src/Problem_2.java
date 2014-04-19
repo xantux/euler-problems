@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Problem 2 from Project Euler
  * 
@@ -19,10 +22,46 @@
  *
  */
 public class Problem_2 {
-
-
+	
+	// Starting pivot points
+	private static int[] pivots = {1,2};
+	// Fibonacci's results
+	private static List<Integer> fibonacci = new ArrayList<Integer>();
+	
+	private static int arraySum(int[] pivots) {
+		if( pivots.length == 0)
+			return 0;
+		int summatory = 0;
+		for(int i:pivots)
+            summatory += i;
+		return summatory;
+	}
+	
+	private static void refreshPivots(int newNumber) {
+		pivots[0] = pivots[1];
+		pivots[1] = newNumber;
+	}
+	
 	public static void main(String[] args) {
+		// As always we cannot "fixed" the size of our algorithm
+		final int size = 32; // Fibonacci's numbers, you can change it
+		// Total
+		double total = 0;
 		
+		// Now the fun part of the algorithm
+		for( int i = 0; i < size; i++) {
+			if( i == 0 || i == 1)
+				fibonacci.add(i);
+			else {
+				fibonacci.add( arraySum(pivots) );
+				refreshPivots(fibonacci.get(i));
+			}
+			
+			if( fibonacci.get(i) % 2 == 0)
+				total += fibonacci.get(i);
+		}
+		
+		System.out.print(total);
 	}
 
 }
