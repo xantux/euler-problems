@@ -19,7 +19,7 @@
  * Feel free to ask anything on Github.
  *
  * @author Claudio Ludovico Panetta(@Ludo237)
- * @version 1.0.0.
+ * @version 1.0.0
  ********************************/
 
 int array_sum(int array[]);
