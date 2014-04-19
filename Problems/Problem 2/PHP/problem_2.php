@@ -36,8 +36,13 @@ $total = 0;
 
 // Main algorithm part starts here
 for($i = 0; $i < $size; $i++) {
+<<<<<<< HEAD
     if( $i != 0 || $i != $size)
         $fibonacci[$i] = $fibonacci[$i-1] + $fibonacci[$i-2];
+=======
+    if( $i != 0 && $i != $size)
+        $fibonacci[$i] = $fibonacci[$i-1]+$fibonacci[$i-2];
+>>>>>>> FETCH_HEAD
     elseif($i == 1)
         $fibonacci[$i] = $pivot[1];
     else
