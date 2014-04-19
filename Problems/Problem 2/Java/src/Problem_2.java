@@ -60,8 +60,5 @@ public class Problem_2 {
 			if( fibonacci.get(i) % 2 == 0)
 				total += fibonacci.get(i);
 		}
-		
-		System.out.print(total);
 	}
-
 }
