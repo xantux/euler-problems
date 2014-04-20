@@ -10,3 +10,4 @@ They use their invaluable time to show you how you can write algorithms for simp
 - Matteo Manchi ([@MatteoManchi](https://twitter.com/matteomanchi))
 - Claudio Ludovico Panetta ([@Ludo237](https://twitter.com/Ludo237))
 - Pietro Arturo Panetta ([arturu.it](http://www.arturu.it))
+- Santo Antonio Terranova ([tng46](https://twitter.com/santoterranova))
