@@ -1,7 +1,7 @@
 Project Euler - Problems
 ==============
 
-Repository that contains every problems that I took on [Project Euler](http://projecteuler.net/problems)
+Repository that contains every problems that I took on [Project Euler](http://projecteuler.net/problems), you should check it out.
 
 ## What is this ? ##
 
