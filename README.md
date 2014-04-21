@@ -3,7 +3,7 @@ Project Euler - Problems
 
 Repository that contains every problems that I took on [Project Euler](http://projecteuler.net/problems), you should check it out.
 
-## What is this ? ##
+## What is this project ? ##
 
 This is a simple repository with procedure for some of the mainstream problems that you can find on Project Euler.
 
