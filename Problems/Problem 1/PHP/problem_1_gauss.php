@@ -7,7 +7,7 @@
  * Find the sum of all the multiples of 3 or 5 below 1000
  *
  * This file is made with VIM using PHP 5.6.0a3 on HHVM machine
- * 
+ *
  * PLEASE NOTE
  * In order to work you must have, at least, PHP 5.3.x or higher
  *
@@ -15,8 +15,8 @@
  * This is not the final version, as you can see I'll trace the version of every solution, so please don't think that
  * this is the best algorithm in terms of speed and code optimization, for any trouble open an issue.
  *
- * @author Pietro Arturo Panetta (blog.arturu.it)
- * @version 2.0
+ * @author Claudio Ludovico Panetta (@Ludo237)
+ * @version 1.5.0
  *************************************/
 /**
  * Ringrazio Gauss per la soluzione
@@ -29,7 +29,7 @@ $startTest = microtime();
 $fine = 1000;
 $inizio = 0;
 
-// abbasso di uno la $fine perché nelle richieste i multipli di x 
+// abbasso di uno la $fine perché nelle richieste i multipli di x
 // devono essere inferiori a $fine;
 --$fine;
 
@@ -39,7 +39,7 @@ $inizio = 0;
 // trovo il multiplo più alto
 // il numero di iterazioni del for al massimo è uguale alla ragione
 function alto ($ragione,$fine) {
-	// partendo dal numero più alto diminuisco di una unità 
+	// partendo dal numero più alto diminuisco di una unità
 	// finché non trovo il multiplo più alto
 	for ( $i = $fine; ; $i--){
 		if ( $i % $ragione == 0 )
@@ -58,7 +58,7 @@ function basso ($ragione,$inizio){
 	// aumento di una unità finché non trovo il primo multiplo
 	for ($i=$inizio; ; $i++){
 		if ( $i % $ragione == 0 )
-			return $i; 
+			return $i;
 	}
 }
 
