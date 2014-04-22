@@ -19,6 +19,8 @@
  * @version 1.5.0
  *************************************/
 
+// ALGORITHM NOT TESTED YET, IF YOU TEST IT PLEASE REPORT EVERYTHING ON GITHUB.
+
 // Start the benchmark
 $startTest = microtime();
 
@@ -27,23 +29,24 @@ $size = 1000;
 
 $i = 0;
 $sum = 0;
-do {
-	$sum+=$i;
-	$i+=3;
-} while ($i<$size);
-$i = 0;
-do {
-	$sum+=$i;
-	$i+=5;
-	
-} while ($i<$size);
-$i = 0;
-do {
-	$sum-=$i;
-	$i+=15;
-	
-} while ($i<$size);
 
+do
+{
+	$sum += $i;
+	$i += 3;
+} while ($i < $size);
+$i = 0;
+do
+{
+	$sum += $i;
+	$i += 5;	
+} while ($i < $size);
+$i = 0;
+do
+{
+	$sum -= $i;
+	$i += 15;	
+} while ($i < $size);
 
 $endTest = microtime();
 echo "Algorithm time: ". ($endTest - $startTest);
