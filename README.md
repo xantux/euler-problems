@@ -1,11 +1,12 @@
 Project Euler - Problems
 ==============
 
-Repository that contains every problems that I took on [Project Euler](http://projecteuler.net/problems)
-
 ## What is this ? ##
 
-This is a simple repository with procedure for some of the mainstream problems that you can find on Project Euler.
+This is a simple repository with procedure for some of the mainstream problems that you can find on [Project Euler](http://projecteuler.net/problems)
+Sometimes i try to solve a problem.
+Here is the site badge with my current status:  
+![Project Euler Badge](https://projecteuler.net/profile/xantux.png)
 
 ## Why this? ##
 
